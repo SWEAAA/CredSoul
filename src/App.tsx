@@ -6,7 +6,7 @@ import Layout from './components/Layout'
 
 // Configure chains & providers
 const chains = [xdc]
-const projectId = 'YOUR_PROJECT_ID' // Get from WalletConnect Cloud
+const projectId = '2510d0d15117d347225329178bb9c8e9'
 
 const { publicClient } = configureChains(chains, [w3mProvider({ projectId })])
 const wagmiConfig = createConfig({
